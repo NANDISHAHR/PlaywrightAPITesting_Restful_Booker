@@ -1,0 +1,33 @@
+{
+  "content-type": "application/json; charset=utf-8",
+  "booking_Id": 1,
+  "booking_Id2": 12,
+  "booking_Id3": 15,
+  "firstname": "Mary",
+  "create_booking": {
+    "firstname": "John",
+    "lastname": "Abhram",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-01-01",
+      "checkout": "2026-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "update_booking" : {
+    "firstname": "Silly",
+    "lastname": "lally",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-01",
+      "checkout": "2026-11-03"
+    },
+    "additionalneeds": "Bowl"
+  },
+  "partial_update": {
+     "firstname": "James",
+    "lastname": "Bond"
+  }
+}
